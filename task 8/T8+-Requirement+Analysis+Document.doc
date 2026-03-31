@@ -1,0 +1,1557 @@
+Date: Tue, 31 Mar 2026 06:45:15 +0000 (UTC)
+Message-ID: <1861873554.1.1774939515528@d21441f086d4>
+Subject: Exported From Confluence
+MIME-Version: 1.0
+Content-Type: multipart/related; 
+	boundary="----=_Part_0_1869789829.1774939515509"
+
+------=_Part_0_1869789829.1774939515509
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: quoted-printable
+Content-Location: file:///C:/exported.html
+
+<html xmlns:o=3D'urn:schemas-microsoft-com:office:office'
+      xmlns:w=3D'urn:schemas-microsoft-com:office:word'
+      xmlns:v=3D'urn:schemas-microsoft-com:vml'
+      xmlns=3D'urn:w3-org-ns:HTML'>
+<head>
+    <meta http-equiv=3D"Content-Type" content=3D"text/html; charset=3Dutf-8=
+">
+    <title>T8 -Requirement Analysis Document</title>
+    <!--[if gte mso 9]>
+    <xml>
+        <o:OfficeDocumentSettings>
+            <o:TargetScreenSize>1024x640</o:TargetScreenSize>
+            <o:PixelsPerInch>72</o:PixelsPerInch>
+            <o:AllowPNG/>
+        </o:OfficeDocumentSettings>
+        <w:WordDocument>
+            <w:View>Print</w:View>
+            <w:Zoom>90</w:Zoom>
+            <w:DoNotOptimizeForBrowser/>
+        </w:WordDocument>
+    </xml>
+    <![endif]-->
+    <style>
+                <!--
+        @page Section1 {
+            size: 8.5in 11.0in;
+            margin: 1.0in;
+            mso-header-margin: .5in;
+            mso-footer-margin: .5in;
+            mso-paper-source: 0;
+        }
+
+        table {
+            border: solid 1px;
+            border-collapse: collapse;
+        }
+
+        table td, table th {
+            border: solid 1px;
+            padding: 5px;
+        }
+
+        td {
+            page-break-inside: avoid;
+        }
+
+        tr {
+            page-break-after: avoid;
+        }
+
+        div.Section1 {
+            page: Section1;
+        }
+
+        /* Confluence print stylesheet. Common to all themes for print medi=
+a */
+/* Full of !important until we improve batching for print CSS */
+
+@media print {
+    #main {
+        padding-bottom: 1em !important; /* The default padding of 6em is to=
+o much for printouts */
+    }
+
+    body {
+        font: var(--ds-font-body-small, Arial, Helvetica, FreeSans, sans-se=
+rif);
+    }
+
+    body, #full-height-container, #main, #page, #content, .has-personal-sid=
+ebar #content {
+        background: var(--ds-surface, #fff) !important;
+        color: var(--ds-text, #000) !important;
+        border: 0 !important;
+        width: 100% !important;
+        height: auto !important;
+        min-height: auto !important;
+        margin: 0 !important;
+        padding: 0 !important;
+        display: block !important;
+    }
+
+    a, a:link, a:visited, a:focus, a:hover, a:active {
+        color: var(--ds-text, #000);
+    }
+
+    #content h1,
+    #content h2,
+    #content h3,
+    #content h4,
+    #content h5,
+    #content h6 {
+        page-break-after: avoid;
+    }
+
+    pre {
+        font: var(--ds-font-code, Monaco, "Courier New", monospace);
+    }
+
+    #header,
+    .aui-header-inner,
+    #navigation,
+    #sidebar,
+    .sidebar,
+    #personal-info-sidebar,
+    .ia-fixed-sidebar,
+    .page-actions,
+    .navmenu,
+    .ajs-menu-bar,
+    .noprint,
+    .inline-control-link,
+    .inline-control-link a,
+    a.show-labels-editor,
+    .global-comment-actions,
+    .comment-actions,
+    .quick-comment-container,
+    #addcomment {
+        display: none !important;
+    }
+
+    /* CONF-28544 cannot print multiple pages in IE */
+    #splitter-content {
+        position: relative !important;
+    }
+
+    .comment .date::before {
+        content: none !important; /* remove middot for print view */
+    }
+
+    h1.pagetitle img {
+        height: auto;
+        width: auto;
+    }
+
+    .print-only {
+        display: block;
+    }
+
+    #footer {
+        position: relative !important; /* CONF-17506 Place the footer at en=
+d of the content */
+        margin: 0;
+        padding: 0;
+        background: none;
+        clear: both;
+    }
+
+    #poweredby {
+        border-top: none;
+        background: none;
+    }
+
+    #poweredby li.print-only {
+        display: list-item;
+        font-style: italic;
+    }
+
+    #poweredby li.noprint {
+        display: none;
+    }
+
+    /* no width controls in print */
+    .wiki-content .table-wrap,
+    .wiki-content p,
+    .panel .codeContent,
+    .panel .codeContent pre,
+    .image-wrap {
+        overflow: visible !important;
+    }
+
+    /* TODO - should this work? */
+    #children-section,
+    #comments-section .comment,
+    #comments-section .comment .comment-body,
+    #comments-section .comment .comment-content,
+    #comments-section .comment p {
+        page-break-inside: avoid;
+    }
+
+    #page-children a {
+        text-decoration: none;
+    }
+
+    /**
+     hide twixies
+
+     the specificity here is a hack because print styles
+     are getting loaded before the base styles. */
+    #comments-section.pageSection .section-header,
+    #comments-section.pageSection .section-title,
+    #children-section.pageSection .section-header,
+    #children-section.pageSection .section-title,
+    .children-show-hide {
+        padding-left: 0;
+        margin-left: 0;
+    }
+
+    .children-show-hide.icon {
+        display: none;
+    }
+
+    /* personal sidebar */
+    .has-personal-sidebar #content {
+        margin-right: 0px;
+    }
+
+    .has-personal-sidebar #content .pageSection {
+        margin-right: 0px;
+    }
+
+    .no-print, .no-print * {
+        display: none !important;
+    }
+}
+-->
+    </style>
+</head>
+<body>
+    <h1>T8 -Requirement Analysis Document</h1>
+    <div class=3D"Section1">
+        <h1 local-id=3D"35bb66d542ee" id=3D"T8-RequirementAnalysisDocument-=
+1.Introduction">1. Introduction</h1>
+<h3 local-id=3D"14b095993c5e" id=3D"T8-RequirementAnalysisDocument-1.1Purpo=
+se">1.1 Purpose</h3>
+<p local-id=3D"9503786881f4">This document defines the requirements for imp=
+lementing a cloud-based PostgreSQL database system with full observability,=
+ monitoring, analytics dashboards, and performance validation using AWS ser=
+vices and Grafana Cloud.</p>
+<p local-id=3D"d446ca2a64b5">The intended audience includes:</p>
+<ul local-id=3D"197b4c3c13bf">
+<li local-id=3D"aeaf0409ca17">
+<p local-id=3D"4d4f7147f816">CTO (infrastructure validation)</p></li>
+<li local-id=3D"87f8de04abc5">
+<p local-id=3D"acd8658ccdab">Solution Architect (design compliance)</p></li=
+>
+<li local-id=3D"a348ac4ec074">
+<p local-id=3D"76fa9b122afe">DevOps Engineers (deployment &amp; monitoring)=
+</p></li>
+<li local-id=3D"fd54c1bada6a">
+<p local-id=3D"d8d605f195e2">Developers (performance validation)</p></li>
+<li local-id=3D"061b6bdb334c">
+<p local-id=3D"224687960b89">Operations Teams (incident analysis)</p></li>
+</ul>
+<p local-id=3D"1465156508aa">This document serves as a blueprint for system=
+ design before implementation.</p>
+<hr local-id=3D"5dffd42bb364">
+<h3 local-id=3D"c82f4a3ddb53" id=3D"T8-RequirementAnalysisDocument-1.2Scope=
+">1.2 Scope</h3>
+<p local-id=3D"f6757be66966">In Scope</p>
+<ul local-id=3D"aa8f6c89e412">
+<li local-id=3D"5bbb830c1e2e">
+<p local-id=3D"9e7f6e74c9a5">Provisioning Amazon RDS PostgreSQL</p></li>
+<li local-id=3D"1c616c20da8d">
+<p local-id=3D"c991c838fb92">Configuring EC2 for workload simulation</p></l=
+i>
+<li local-id=3D"1811d0d1eb0a">
+<p local-id=3D"23f3ffc5a42a">Importing structured dataset from SQLite to Po=
+stgreSQL</p></li>
+<li local-id=3D"fad85de8d4db">
+<p local-id=3D"b450116de74d">Integrating CloudWatch metrics</p></li>
+<li local-id=3D"0f202d7668ce">
+<p local-id=3D"92f321b3a1f8">Enabling RDS Performance Insights</p></li>
+<li local-id=3D"e188032864e1">
+<p local-id=3D"3e9c3e4e6be9">Creating Grafana Infrastructure Dashboard</p><=
+/li>
+<li local-id=3D"6e8ae0207576">
+<p local-id=3D"105672570ca2">Creating Grafana Analytics Dashboard</p></li>
+<li local-id=3D"e1af5be707ac">
+<p local-id=3D"b168b8f4ed49">Implementing automated load simulation</p></li=
+>
+<li local-id=3D"5f36b3b02a92">
+<p local-id=3D"690fe02b39a2">Monitoring DBLoad behavior under workload</p><=
+/li>
+</ul>
+<p local-id=3D"90b371a7f728">Out of Scope</p>
+<ul local-id=3D"c3186da2029b">
+<li local-id=3D"9656e033a702">
+<p local-id=3D"3a8515a0d601">Multi-region deployment</p></li>
+<li local-id=3D"d2629ad21399">
+<p local-id=3D"97463450f329">Multi-AZ high availability</p></li>
+<li local-id=3D"bca23b1c07b2">
+<p local-id=3D"1fe57473b2ca">Production-grade CI/CD pipelines</p></li>
+<li local-id=3D"a32c14c9fa5d">
+<p local-id=3D"f39b7c8cf8a1">Enterprise-level security hardening</p></li>
+<li local-id=3D"e1e16b9001e4">
+<p local-id=3D"a1ba760f2f44">Full Infrastructure as Code automation</p></li=
+>
+</ul>
+<hr local-id=3D"8801d2e3cd46">
+<h3 local-id=3D"bcda5a6fe5d1" id=3D"T8-RequirementAnalysisDocument-1.3Defin=
+itions,Acronyms,andAbbreviations">1.3 Definitions, Acronyms, and Abbreviati=
+ons</h3>
+<h3 local-id=3D"62c089bb90df" id=3D"T8-RequirementAnalysisDocument-=E2=80=
+=93RelationalDatabaseServiceEC2=E2=80=93ElasRDSticComputeCloudDBLoad=E2=80=
+=93DatabaseLoad(AverageActiveSessions)IOPS=E2=80=93Input/OutputOperationsPe=
+rSecondAWS=E2=80=93AmazonWebServicesPI=E2=80=93PerformanceInsightsIaC=E2=80=
+=93InfrastructureasCodeSG=E2=80=93SecurityGroup">=E2=80=93 Relational Datab=
+ase Service<br>
+EC2 =E2=80=93 ElasRDS tic Compute Cloud<br>
+DBLoad =E2=80=93 Database Load (Average Active Sessions)<br>
+IOPS =E2=80=93 Input/Output Operations Per Second<br>
+AWS =E2=80=93 Amazon Web Services<br>
+PI =E2=80=93 Performance Insights<br>
+IaC =E2=80=93 Infrastructure as Code<br>
+SG =E2=80=93 Security Group</h3>
+<hr local-id=3D"984cd4f1d392">
+<h3 local-id=3D"67a9ee4d4b4a" id=3D"T8-RequirementAnalysisDocument-1.4Refer=
+ences">1.4 References</h3>
+<ul local-id=3D"3a9b4205a438">
+<li local-id=3D"b314f48f2c13">
+<p local-id=3D"ba58522d7c68">AWS RDS Documentation</p></li>
+<li local-id=3D"d18ed1fc558f">
+<p local-id=3D"167a7c7e86c6">AWS EC2 Documentation</p></li>
+<li local-id=3D"c8e9120fcc36">
+<p local-id=3D"5f8ddf4d949f">AWS CloudWatch Documentation</p></li>
+<li local-id=3D"6492dff24f47">
+<p local-id=3D"3e2752031440">AWS Well-Architected Framework</p></li>
+<li local-id=3D"d7a3883b1680">
+<p local-id=3D"d06ba9450143">Grafana Cloud Documentation</p></li>
+<li local-id=3D"ea19880f801c">
+<p local-id=3D"608080a8195a">RDS Performance Insights Documentation</p></li=
+>
+</ul>
+<hr local-id=3D"e446348ea4ae">
+<h3 local-id=3D"cd3c9d159a72" id=3D"T8-RequirementAnalysisDocument-1.5Overv=
+iew">1.5 Overview</h3>
+<p local-id=3D"fbcdac3d8f72">This document describes:</p>
+<ul local-id=3D"dde07027e116">
+<li local-id=3D"e1608f3a2e47">
+<p local-id=3D"c0bb47d53b66">Project objectives</p></li>
+<li local-id=3D"4573ddfe3972">
+<p local-id=3D"989cb2db41eb">Business goals</p></li>
+<li local-id=3D"216be34f85cf">
+<p local-id=3D"91a1b11f202d">Functional requirements</p></li>
+<li local-id=3D"c8e8e8a08465">
+<p local-id=3D"47d5416ac224">Non-functional requirements</p></li>
+<li local-id=3D"e387ed6359c9">
+<p local-id=3D"65a6c4244c36">Constraints and assumptions</p></li>
+<li local-id=3D"9d0c37115ec5">
+<p local-id=3D"d93b484da6a0">Risk analysis</p></li>
+<li local-id=3D"92058dd5b399">
+<p local-id=3D"ff3b4d5fe5f8">Security and compliance expectations</p></li>
+</ul>
+<hr local-id=3D"77b0b7ea18f8">
+<h1 local-id=3D"46bd7585ee2f" id=3D"T8-RequirementAnalysisDocument-2.Projec=
+tOverview">2. Project Overview</h1>
+<h3 local-id=3D"31f823d8aa49" id=3D"T8-RequirementAnalysisDocument-2.1Proje=
+ctObjectives">2.1 Project Objectives</h3>
+<p local-id=3D"210d0d450773">The primary objectives are:</p>
+<ul local-id=3D"d7c40e8dc8a1">
+<li local-id=3D"3ada2648c870">
+<p local-id=3D"8c40959cbba5">Deploy a managed PostgreSQL database in AWS</p=
+></li>
+<li local-id=3D"272a7e896571">
+<p local-id=3D"93f8e5038d1e">Import structured dataset into RDS</p></li>
+<li local-id=3D"13ae771dc67b">
+<p local-id=3D"1bfe4dc44a04">Enable infrastructure-level monitoring</p></li=
+>
+<li local-id=3D"5338627588ea">
+<p local-id=3D"d1720c5df094">Build SQL-based analytics dashboards</p></li>
+<li local-id=3D"7afe7c337e98">
+<p local-id=3D"1cc5279adbd8">Simulate database load</p></li>
+<li local-id=3D"8ce7e9cecf78">
+<p local-id=3D"81fad59906fa">Validate system performance under stress</p></=
+li>
+<li local-id=3D"554ed5d5db43">
+<p local-id=3D"0f9d23b8a48d">Analyze database behavior using Performance In=
+sights</p></li>
+</ul>
+<hr local-id=3D"17b0b2038013">
+<h3 local-id=3D"b7d446a0eaa6" id=3D"T8-RequirementAnalysisDocument-2.2Busin=
+essGoals">2.2 Business Goals</h3>
+<ul local-id=3D"90651598affb">
+<li local-id=3D"fbb65e2e4f30">
+<p local-id=3D"00ef748b7871">Improve infrastructure observability</p></li>
+<li local-id=3D"afd2f1320f7e">
+<p local-id=3D"0e4a90df432e">Reduce database performance risks</p></li>
+<li local-id=3D"326d3a93f382">
+<p local-id=3D"c14490f1d0bd">Enable real-time visibility into DB health</p>=
+</li>
+<li local-id=3D"52e1ff654c5f">
+<p local-id=3D"72ec5a135798">Provide performance validation before producti=
+on deployment</p></li>
+<li local-id=3D"07855ca923c5">
+<p local-id=3D"33f7c6ba69f2">Prevent downtime caused by undetected DB bottl=
+enecks</p></li>
+<li local-id=3D"15204f73e21f">
+<p local-id=3D"8a4672943263">Establish DevOps best practices alignment</p><=
+/li>
+</ul>
+<hr local-id=3D"b7786717b6d4">
+<h3 local-id=3D"bb4d5620b205" id=3D"T8-RequirementAnalysisDocument-2.3Backg=
+round">2.3 Background</h3>
+<p local-id=3D"1996ca1434bc">Traditional database deployments lack:</p>
+<ul local-id=3D"42d7b9d1ff2c">
+<li local-id=3D"42629677013e">
+<p local-id=3D"b8614a8409a1">Real-time infrastructure visibility</p></li>
+<li local-id=3D"c9675db76732">
+<p local-id=3D"fbd06424fa8f">Performance load validation</p></li>
+<li local-id=3D"ec75655bbe39">
+<p local-id=3D"3889214a8102">Centralized dashboarding</p></li>
+<li local-id=3D"1d05c1d5ee61">
+<p local-id=3D"35beb1ae11b0">Observability integration</p></li>
+</ul>
+<p local-id=3D"1d9a0fa32348">The system aims to demonstrate a cloud-native =
+monitored database aligned with AWS Well-Architected Framework principles.<=
+/p>
+<hr local-id=3D"bc2f55038836">
+<h3 local-id=3D"faa13c784505" id=3D"T8-RequirementAnalysisDocument-2.4Const=
+raints">2.4 Constraints</h3>
+<ul local-id=3D"796d7442d41d">
+<li local-id=3D"1d3af2ea9491">
+<p local-id=3D"ca1ed0bc2d44">Free-tier compatible architecture (db.t3.micro=
+)</p></li>
+<li local-id=3D"aa33fd8544e1">
+<p local-id=3D"0f0931dc49ee">Single-region deployment</p></li>
+<li local-id=3D"93db848c7015">
+<p local-id=3D"5b690c31db22">Limited budget</p></li>
+<li local-id=3D"5e19e5e65f2c">
+<p local-id=3D"662d66800d64">Manual provisioning via AWS Console</p></li>
+<li local-id=3D"a900e6d2f93e">
+<p local-id=3D"01fd4890396f">Execution timeline limited to same-day deliver=
+y</p></li>
+<li local-id=3D"7032a764accb">
+<p local-id=3D"1c6a7220f5ce">Public access temporarily enabled for demo (no=
+t production safe)</p></li>
+</ul>
+<hr local-id=3D"1787970764ba">
+<h1 local-id=3D"bdf8a0f113fa" id=3D"T8-RequirementAnalysisDocument-3.Functi=
+onalRequirements">3. Functional Requirements</h1>
+<h3 local-id=3D"e2ffb6f8b665" id=3D"T8-RequirementAnalysisDocument-3.1UseCa=
+seDiagram">3.1 Use Case Diagram</h3>
+<p local-id=3D"e86cad1e03c9">Actors:</p>
+<ul local-id=3D"f28c3b021537">
+<li local-id=3D"211cb3fc6522">
+<p local-id=3D"0c1c6b2aed34">DevOps Engineer</p></li>
+<li local-id=3D"b393321c454c">
+<p local-id=3D"bfb2e4553f94">EC2 Instance</p></li>
+<li local-id=3D"39400a288fe7">
+<p local-id=3D"84d8893f2fa6">Amazon RDS</p></li>
+<li local-id=3D"1248bc33ceea">
+<p local-id=3D"29fc98fcc60c">CloudWatch</p></li>
+<li local-id=3D"82b4d8729544">
+<p local-id=3D"ea6343beadac">Grafana Cloud</p></li>
+<li local-id=3D"b628888ae079">
+<p local-id=3D"9bbea2c9a947">Performance Insights</p></li>
+</ul><span class=3D"confluence-embedded-file-wrapper image-center-wrapper c=
+onfluence-embedded-manual-size"><img class=3D"confluence-embedded-image ima=
+ge-center" alt=3D"image-20260309-184509.png" width=3D"468" loading=3D"lazy"=
+ src=3D"9bf8d315ca3d3dd4b79856e094e65a961298ff243d2f77a2ebaa5487111648a8" d=
+ata-image-src=3D"https://iamops.atlassian.net/wiki/download/attachments/181=
+6592404/image-20260309-184509.png?version=3D1&amp;modificationDate=3D177308=
+1911911&amp;cacheVersion=3D1&amp;api=3Dv2" data-height=3D"822" data-width=
+=3D"1071" data-unresolved-comment-count=3D"0" data-linked-resource-id=3D"18=
+45231697" data-linked-resource-version=3D"1" data-linked-resource-type=3D"a=
+ttachment" data-linked-resource-default-alias=3D"image-20260309-184509.png"=
+ data-base-url=3D"https://iamops.atlassian.net/wiki" data-linked-resource-c=
+ontent-type=3D"image/png" data-linked-resource-container-id=3D"1816592404" =
+data-linked-resource-container-version=3D"3" data-media-id=3D"61fe4574-4bfc=
+-4304-bc92-e19496f73763" data-media-type=3D"file" height=3D"358"></span>
+<p local-id=3D"4e97187d08dd"></p>
+<hr local-id=3D"6b0b054e6c05">
+<h3 local-id=3D"7a0b8891b73e" id=3D"T8-RequirementAnalysisDocument-3.2UseCa=
+ses">3.2 Use Cases</h3>
+<hr local-id=3D"bf3a57236316">
+<h3 local-id=3D"79a85959ce3a" id=3D"T8-RequirementAnalysisDocument-3.2.1Use=
+Case1:ProvisionRDSPostgreSQL">3.2.1 Use Case 1: Provision RDS PostgreSQL</h=
+3>
+<p local-id=3D"293b4a62a8f8">Description:<br>
+System must allow provisioning of PostgreSQL database instance in AWS.</p>
+<p local-id=3D"cc55392f1305">Actors:<br>
+DevOps Engineer, AWS Console</p>
+<p local-id=3D"a5bddaa6e17d">Preconditions:</p>
+<ul local-id=3D"319e27be517e">
+<li local-id=3D"c1d02ccebf8f">
+<p local-id=3D"f195c0d36ca4">AWS account available</p></li>
+<li local-id=3D"8c2d89b2dc14">
+<p local-id=3D"91ae3590ca9d">Required permissions assigned</p></li>
+</ul>
+<p local-id=3D"f2c166309599">Postconditions:</p>
+<ul local-id=3D"72e7067e260b">
+<li local-id=3D"d539d868ba58">
+<p local-id=3D"508e7859c621">RDS instance created and available</p></li>
+</ul>
+<p local-id=3D"b077dcc44af9">Flow:</p>
+<ol start=3D"1" local-id=3D"63cedbfd151d">
+<li local-id=3D"60524bf2c9f9">
+<p local-id=3D"ff4499f92cfe">Create RDS PostgreSQL instance.</p></li>
+<li local-id=3D"9496e267fbe5">
+<p local-id=3D"eb7f52c8989e">Configure storage and instance class.</p></li>
+<li local-id=3D"efde2ccf1a6a">
+<p local-id=3D"71fff117526e">Configure networking and security group.</p></=
+li>
+<li local-id=3D"8d7f2f0d9d4b">
+<p local-id=3D"bc0f10d966e4">Enable monitoring features.</p></li>
+</ol>
+<p local-id=3D"12dfe5798d4a">Alternative Flow:</p>
+<ul local-id=3D"74f68ca8c37d">
+<li local-id=3D"9377df90b70f">
+<p local-id=3D"753b485690b6">Incorrect security group =E2=86=92 connection =
+failure.</p></li>
+<li local-id=3D"5c211c5b0e38">
+<p local-id=3D"dd69f9fd2a6e">Storage misconfiguration =E2=86=92 performance=
+ degradation.</p></li>
+</ul>
+<hr local-id=3D"afdeae772c88">
+<h3 local-id=3D"0283f997362e" id=3D"T8-RequirementAnalysisDocument-3.2.2Use=
+Case2:ImportDataset">3.2.2 Use Case 2: Import Dataset</h3>
+<p local-id=3D"3eedc635e7df">Description:<br>
+System must support importing structured SQLite dataset into PostgreSQL.</p=
+>
+<p local-id=3D"84d82462024b">Actors:<br>
+DevOps Engineer, EC2, RDS</p>
+<p local-id=3D"998597328341">Preconditions:</p>
+<ul local-id=3D"1e6d97246a06">
+<li local-id=3D"ec4adb6ebe69">
+<p local-id=3D"28f602e7555b">Dataset files available</p></li>
+<li local-id=3D"73b949c6e877">
+<p local-id=3D"b75986054009">RDS reachable from EC2</p></li>
+</ul>
+<p local-id=3D"efe1ec934430">Postconditions:</p>
+<ul local-id=3D"d07c412984a1">
+<li local-id=3D"ea9d0a53c4a6">
+<p local-id=3D"86680952771b">Tables created in PostgreSQL</p></li>
+<li local-id=3D"1bfaa7a2dbc5">
+<p local-id=3D"93314236326d">Data validated via row counts</p></li>
+</ul>
+<p local-id=3D"ad0795ba2997">Flow:</p>
+<ol start=3D"1" local-id=3D"6209c64cbf12">
+<li local-id=3D"e79c4fbe64e1">
+<p local-id=3D"d0b0c6313928">Convert SQLite schema.</p></li>
+<li local-id=3D"6e0fdad48e08">
+<p local-id=3D"ecd8982f1275">Import data into PostgreSQL.</p></li>
+<li local-id=3D"29433cdd1f3e">
+<p local-id=3D"3b0e32a5f9ca">Validate table creation.</p></li>
+<li local-id=3D"58325f0c94c3">
+<p local-id=3D"dde943374690">Validate record counts.</p></li>
+</ol>
+<p local-id=3D"cadf59257fbc">Alternative Flow:</p>
+<ul local-id=3D"e00e60ac9e82">
+<li local-id=3D"c88318b6f84e">
+<p local-id=3D"8ed5a55eac94">Schema mismatch =E2=86=92 import failure.</p><=
+/li>
+<li local-id=3D"e4d8c7038144">
+<p local-id=3D"68cc71ea02c0">Connection issue =E2=86=92 retry required.</p>=
+</li>
+</ul>
+<hr local-id=3D"8f4365e01fac">
+<h3 local-id=3D"4687c1c98b6e" id=3D"T8-RequirementAnalysisDocument-3.2.3Use=
+Case3:MonitorInfrastructureMetrics">3.2.3 Use Case 3: Monitor Infrastructur=
+e Metrics</h3>
+<p local-id=3D"253f0e430b7b">Description:<br>
+System must collect and display infrastructure metrics.</p>
+<p local-id=3D"a6247108db8a">Actors:<br>
+RDS, CloudWatch, Grafana</p>
+<p local-id=3D"7ee090c5cb70">Metrics Required:</p>
+<ul local-id=3D"82ffb53e58b9">
+<li local-id=3D"6b3e11ff505d">
+<p local-id=3D"9f369aeed943">CPUUtilization</p></li>
+<li local-id=3D"19f15bb02331">
+<p local-id=3D"076de26ea20d">FreeableMemory</p></li>
+<li local-id=3D"a1b69adee187">
+<p local-id=3D"1f6119778e8c">FreeStorageSpace</p></li>
+<li local-id=3D"910e003b7adb">
+<p local-id=3D"e523eb7b551e">DatabaseConnections</p></li>
+<li local-id=3D"f31f0bb22b37">
+<p local-id=3D"89192828937d">ReadIOPS</p></li>
+<li local-id=3D"55f44ee84435">
+<p local-id=3D"7919863e5865">WriteIOPS</p></li>
+<li local-id=3D"bc0687216bfc">
+<p local-id=3D"ab60deae7e12">DBLoad</p></li>
+<li local-id=3D"c7c912c102fe">
+<p local-id=3D"7103fb8d5d14">DBLoadCPU</p></li>
+<li local-id=3D"99e8a8e4f19c">
+<p local-id=3D"47b4ec868f53">DBLoadNonCPU</p></li>
+</ul>
+<p local-id=3D"f8f5e648d678">Postconditions:</p>
+<ul local-id=3D"6e7bb5ee1f0c">
+<li local-id=3D"2a8bdee4fb77">
+<p local-id=3D"fc170b5c9adf">Metrics visible in Grafana dashboard.</p></li>
+</ul>
+<hr local-id=3D"6e614b444f3b">
+<h3 local-id=3D"8c6d2ff31232" id=3D"T8-RequirementAnalysisDocument-3.2.4Use=
+Case4:PerformLoadSimulation">3.2.4 Use Case 4: Perform Load Simulation</h3>
+<p local-id=3D"25c583c1dd9a">Description:<br>
+System must simulate database load using automated script.</p>
+<p local-id=3D"0dd8ac41d404">Actors:<br>
+EC2, PostgreSQL</p>
+<p local-id=3D"0b33ea7d5478">Preconditions:</p>
+<ul local-id=3D"ebea078d4595">
+<li local-id=3D"7ab138f52110">
+<p local-id=3D"3b09b072324a">Python script deployed</p></li>
+<li local-id=3D"607457132c9d">
+<p local-id=3D"4adc76b13d9c">Cron job configured</p></li>
+</ul>
+<p local-id=3D"705026d1328c">Postconditions:</p>
+<ul local-id=3D"05ec14b75e5d">
+<li local-id=3D"f5f63aaa9654">
+<p local-id=3D"395870f2e3db">Queries executed repeatedly</p></li>
+<li local-id=3D"13448e488470">
+<p local-id=3D"1e50f6460013">DBLoad increased under stress</p></li>
+</ul>
+<p local-id=3D"1a68dfee0b84">Flow:</p>
+<ol start=3D"1" local-id=3D"64ebe4c82edc">
+<li local-id=3D"1e0129e6c187">
+<p local-id=3D"7ee9c65ca693">Script connects to database.</p></li>
+<li local-id=3D"ae5c8a67758a">
+<p local-id=3D"de91f6df74e6">Random queries executed.</p></li>
+<li local-id=3D"b4cf9e26ca0e">
+<p local-id=3D"ef58d68e9bd1">Transactions committed.</p></li>
+<li local-id=3D"4e5702cca07f">
+<p local-id=3D"caa0d56f2592">Script runs periodically via cron.</p></li>
+</ol>
+<p local-id=3D"c01afdf1f374">Alternative Flow:</p>
+<ul local-id=3D"dd571bb2eca0">
+<li local-id=3D"b64fb9c4e5ea">
+<p local-id=3D"26c4b4404cf1">DB connection failure =E2=86=92 log error.</p>=
+</li>
+<li local-id=3D"4da80b8606e9">
+<p local-id=3D"1d3664d3640e">Sequential execution insufficient =E2=86=92 pa=
+rallelization required.</p></li>
+</ul>
+<hr local-id=3D"b9d8d3551332">
+<h3 local-id=3D"a622f7ce9a8a" id=3D"T8-RequirementAnalysisDocument-3.2.5Use=
+Case5:AnalyzePerformance">3.2.5 Use Case 5: Analyze Performance</h3>
+<p local-id=3D"453861a1bee3">Description:<br>
+System must allow root cause analysis using Performance Insights.</p>
+<p local-id=3D"8e0ba6f4a449">Actors:<br>
+DevOps Engineer, Performance Insights</p>
+<p local-id=3D"0d4ea2ca430b">Postconditions:</p>
+<ul local-id=3D"883e80765c21">
+<li local-id=3D"e590dcf5cc31">
+<p local-id=3D"0999997c773f">Query-level analysis available</p></li>
+<li local-id=3D"cccd975162b8">
+<p local-id=3D"c78583b45b3e">CPU vs IO load differentiation possible</p></l=
+i>
+</ul>
+<hr local-id=3D"d7c9fd897bcc">
+<h3 local-id=3D"5f5e1b2e8440" id=3D"T8-RequirementAnalysisDocument-3.2.6Use=
+Case6:BuildAnalyticsDashboard">3.2.6 Use Case 6: Build Analytics Dashboard<=
+/h3>
+<p local-id=3D"7fe621ba4ea7">Description:<br>
+System must display SQL analytics data.</p>
+<p local-id=3D"eef829856369">Dashboard Components:</p>
+<ul local-id=3D"415625d55061">
+<li local-id=3D"34e3917898e6">
+<p local-id=3D"5c0ff84ff745">Total Cities</p></li>
+<li local-id=3D"4190204f1ec2">
+<p local-id=3D"dca4c13e7e1e">Top 10 Countries</p></li>
+<li local-id=3D"85f1c45fbc68">
+<p local-id=3D"46db22a9d255">Population Metrics</p></li>
+</ul>
+<p local-id=3D"b4a091ea33b4">Preconditions:</p>
+<ul local-id=3D"533b3688b0d7">
+<li local-id=3D"290d37e7546b">
+<p local-id=3D"e23126faa949">Dataset successfully imported</p></li>
+</ul>
+<p local-id=3D"e7a8aae67789">Postconditions:</p>
+<ul local-id=3D"74713e825bb3">
+<li local-id=3D"cf95b9398930">
+<p local-id=3D"a11ff543adf5">Real-time analytics visible in Grafana.</p></l=
+i>
+</ul>
+<hr local-id=3D"2e449358c047">
+<h1 local-id=3D"75faa731746a" id=3D"T8-RequirementAnalysisDocument-4.Non-Fu=
+nctionalRequirements">4. Non-Functional Requirements</h1>
+<h3 local-id=3D"6ae97e7fe756" id=3D"T8-RequirementAnalysisDocument-4.1Perfo=
+rmanceRequirements">4.1 Performance Requirements</h3>
+<ul local-id=3D"c71477ca17c1">
+<li local-id=3D"faf769014021">
+<p local-id=3D"85335fcf4702">Database must support simulated concurrent wor=
+kload.</p></li>
+<li local-id=3D"fa0e7acf2e6e">
+<p local-id=3D"ccdfd6324b4c">Monitoring refresh interval =E2=89=A4 1 minute=
+.</p></li>
+<li local-id=3D"ee7c806b6c95">
+<p local-id=3D"c35a273222a2">Load simulation must generate measurable DBLoa=
+d.</p></li>
+<li local-id=3D"af96d4b735a4">
+<p local-id=3D"3cf18e194178">Instance must remain stable under load.</p></l=
+i>
+</ul>
+<hr local-id=3D"65f32e6b3460">
+<h3 local-id=3D"25cb1ed4675d" id=3D"T8-RequirementAnalysisDocument-4.2Secur=
+ityRequirements">4.2 Security Requirements</h3>
+<ul local-id=3D"0ceda4294995">
+<li local-id=3D"b0758cedfd86">
+<p local-id=3D"c0cb33bb934f">Database encryption enabled.</p></li>
+<li local-id=3D"83fd2690c6c6">
+<p local-id=3D"99af28027c3f">Security groups restrict DB port.</p></li>
+<li local-id=3D"f3a836c49bbc">
+<p local-id=3D"807acd668e58">SSH key-based authentication only.</p></li>
+<li local-id=3D"64c894ce5ae8">
+<p local-id=3D"1eac03998942">No hardcoded credentials in production.</p></l=
+i>
+<li local-id=3D"7637ed20de0d">
+<p local-id=3D"3354a13b1baa">Use AWS Secrets Manager (recommended).</p></li=
+>
+<li local-id=3D"d1f2361662e8">
+<p local-id=3D"9451992427eb">Database should not be publicly accessible in =
+production.</p></li>
+</ul>
+<hr local-id=3D"0eddc7ef80b9">
+<h3 local-id=3D"dd328c136e5c" id=3D"T8-RequirementAnalysisDocument-4.3Usabi=
+lityRequirements">4.3 Usability Requirements</h3>
+<ul local-id=3D"bc9f081297bc">
+<li local-id=3D"37461ca8af06">
+<p local-id=3D"41816de23c89">Dashboards must clearly display infrastructure=
+ and analytics.</p></li>
+<li local-id=3D"a78193e23a06">
+<p local-id=3D"a6c3b367a775">Performance metrics must be visually distingui=
+shable.</p></li>
+<li local-id=3D"d2ef2579609f">
+<p local-id=3D"9665f72c9254">DBLoad graph must clearly reflect load changes=
+.</p></li>
+</ul>
+<hr local-id=3D"04f20e1ab710">
+<h3 local-id=3D"5cc27fd791b3" id=3D"T8-RequirementAnalysisDocument-4.4Relia=
+bilityRequirements">4.4 Reliability Requirements</h3>
+<ul local-id=3D"9152c7b747f1">
+<li local-id=3D"d55f3354e0a8">
+<p local-id=3D"9f2f27b0d4db">RDS managed backups enabled.</p></li>
+<li local-id=3D"faac0021a02c">
+<p local-id=3D"830dcf027615">Storage autoscaling supported.</p></li>
+<li local-id=3D"2d6cc2fa48c1">
+<p local-id=3D"97d40b4c5bc7">Monitoring must continue even during workload =
+spikes.</p></li>
+<li local-id=3D"ff77cfe0a41f">
+<p local-id=3D"49d791a0b548">CloudWatch integration must remain consistent.=
+</p></li>
+</ul>
+<hr local-id=3D"d3e52a8caca6">
+<h3 local-id=3D"4d553223cefd" id=3D"T8-RequirementAnalysisDocument-4.5Compl=
+ianceRequirements">4.5 Compliance Requirements</h3>
+<ul local-id=3D"e08623e340ef">
+<li local-id=3D"80098fe15153">
+<p local-id=3D"c7584339cfb9">Align with AWS Well-Architected Framework.</p>=
+</li>
+<li local-id=3D"7da0506dd6c6">
+<p local-id=3D"3e993c41da10">Follow least-privilege IAM principle.</p></li>
+<li local-id=3D"c5ff8ce6cb2b">
+<p local-id=3D"6d030de04ec5">Avoid public database exposure.</p></li>
+<li local-id=3D"fd9a7e886127">
+<p local-id=3D"02f5a1a02f5b">Encrypt performance monitoring data.</p></li>
+</ul>
+<hr local-id=3D"cd7f01da7f81">
+<h1 local-id=3D"d06b8f41af84" id=3D"T8-RequirementAnalysisDocument-5.Assump=
+tionsandDependencies">5. Assumptions and Dependencies</h1>
+<h3 local-id=3D"59544787633e" id=3D"T8-RequirementAnalysisDocument-5.1Assum=
+ptions">5.1 Assumptions</h3>
+<ul local-id=3D"a5371db43f6f">
+<li local-id=3D"c64d1471264f">
+<p local-id=3D"f15558dc6cd8">AWS account available.</p></li>
+<li local-id=3D"6f7fbdc74d24">
+<p local-id=3D"359c5a7c47ed">Grafana Cloud account available.</p></li>
+<li local-id=3D"66cc85ed7ccc">
+<p local-id=3D"aa4d45a642a7">Internet connectivity available.</p></li>
+<li local-id=3D"eacc4f374506">
+<p local-id=3D"b1f8076c261f">Dataset files are valid and complete.</p></li>
+<li local-id=3D"452b0ab73f6f">
+<p local-id=3D"7df489193d65">User has AWS Console access.</p></li>
+</ul>
+<hr local-id=3D"ad85d91faa2e">
+<h3 local-id=3D"d75a4fb1067f" id=3D"T8-RequirementAnalysisDocument-5.2Depen=
+dencies">5.2 Dependencies</h3>
+<ul local-id=3D"88e121d6d923">
+<li local-id=3D"38816b666ea5">
+<p local-id=3D"a7e6a067ff75">Amazon RDS PostgreSQL</p></li>
+<li local-id=3D"7a0f0956bac3">
+<p local-id=3D"e74861c53be3">Amazon EC2</p></li>
+<li local-id=3D"f7a2ee608d8a">
+<p local-id=3D"bbf8d89c9844">Amazon CloudWatch</p></li>
+<li local-id=3D"bad4ef02efaa">
+<p local-id=3D"e7f0c398620a">Grafana Cloud</p></li>
+<li local-id=3D"0e9bea1984df">
+<p local-id=3D"81fe0cadd64b">AWS Performance Insights</p></li>
+<li local-id=3D"b3435bcc40a9">
+<p local-id=3D"bbeb36427e4c">Python runtime</p></li>
+<li local-id=3D"9f63790c7d41">
+<p local-id=3D"3abc1a67cffd">Cron scheduler</p></li>
+</ul>
+<hr local-id=3D"a2c0b6ac57cb">
+<h1 local-id=3D"1879f4bd514b" id=3D"T8-RequirementAnalysisDocument-6.RiskAn=
+alysis">6. Risk Analysis</h1>
+<h3 local-id=3D"eff78f257f3a" id=3D"T8-RequirementAnalysisDocument-6.1RiskI=
+dentification">6.1 Risk Identification</h3>
+<ul local-id=3D"0c0f09e074ce">
+<li local-id=3D"271242efaf41">
+<p local-id=3D"e6231b010ede">Public database exposure</p></li>
+<li local-id=3D"987a014217ad">
+<p local-id=3D"8eed8fbfd4e7">Insufficient load simulation</p></li>
+<li local-id=3D"41ab43b44d15">
+<p local-id=3D"fe76d69057fd">Misconfigured security groups</p></li>
+<li local-id=3D"42a5ae8aacaf">
+<p local-id=3D"906aa37d8c87">IAM misconfiguration</p></li>
+<li local-id=3D"9877c30ea70f">
+<p local-id=3D"f7cb3ac00df8">DB instance resource exhaustion</p></li>
+<li local-id=3D"07ebc1f15c92">
+<p local-id=3D"6e9f08f1a751">Cost overrun</p></li>
+</ul>
+<hr local-id=3D"8e08a5d60f11">
+<h3 local-id=3D"65978e6bc9a4" id=3D"T8-RequirementAnalysisDocument-6.2RiskM=
+itigation">6.2 Risk Mitigation</h3>
+<ul local-id=3D"cd28c5d467a6">
+<li local-id=3D"3f251269af08">
+<p local-id=3D"95cdebd82b06">Restrict database access to private subnet.</p=
+></li>
+<li local-id=3D"2af62ac674b1">
+<p local-id=3D"171928bcc545">Implement concurrent load testing.</p></li>
+<li local-id=3D"37003478cbcc">
+<p local-id=3D"9044f863c196">Follow least privilege IAM.</p></li>
+<li local-id=3D"cba4d8dbd28a">
+<p local-id=3D"f832a5ae44ed">Monitor DBLoad continuously.</p></li>
+<li local-id=3D"11aff4265174">
+<p local-id=3D"11804391fe79">Right-size instance.</p></li>
+<li local-id=3D"191c43c55662">
+<p local-id=3D"2d4d714664ce">Track AWS billing.</p></li>
+</ul>
+<hr local-id=3D"4dba5c838edc">
+<h1 local-id=3D"80764b086b46" id=3D"T8-RequirementAnalysisDocument-7.Glossa=
+ry">7. Glossary</h1>
+<p local-id=3D"c2cc2901a929">Observability =E2=80=93 Ability to measure int=
+ernal state from outputs<br>
+DBLoad =E2=80=93 Average active database sessions<br>
+IOPS =E2=80=93 Disk operation rate<br>
+Infrastructure Monitoring =E2=80=93 System-level metric tracking<br>
+Analytics Dashboard =E2=80=93 SQL-driven business insights</p>
+<hr local-id=3D"5d6c8807d2cf">
+<h1 local-id=3D"7e3546b7d9f7" id=3D"T8-RequirementAnalysisDocument-8.Append=
+ices">8. Appendices</h1>
+<ul local-id=3D"5b2a6bdcc103">
+<li local-id=3D"be063d9429c0">
+<p local-id=3D"c647f1a5285f">Architecture Diagram</p></li>
+<li local-id=3D"bd554d9662a6">
+<p local-id=3D"7620829d4fbb">Dashboard Screenshots</p></li>
+<li local-id=3D"2acaf9067cf4">
+<p local-id=3D"3810073b42fc">Performance Insights Screenshots</p></li>
+<li local-id=3D"281accbaebd7">
+<p local-id=3D"45f14cfa7f8a">Cron Configuration Screenshot</p></li>
+<li local-id=3D"e14ea0d3fa72">
+<p local-id=3D"52e672e865f8">Dataset Validation Evidence</p></li>
+</ul>
+<hr local-id=3D"c535237844c0">
+<h1 local-id=3D"24a3398f8643" id=3D"T8-RequirementAnalysisDocument-9.Custom=
+erAcknowledgement">9. Customer Acknowledgement</h1>
+<p local-id=3D"81a4859fbe08">Name:<br>
+Title:<br>
+Signature:<br>
+Date:</p>
+    </div>
+</body>
+</html>
+------=_Part_0_1869789829.1774939515509
+Content-Type: application/octet-stream
+Content-Transfer-Encoding: base64
+Content-Location: file:///C:/9bf8d315ca3d3dd4b79856e094e65a961298ff243d2f77a2ebaa5487111648a8
+
+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
+ylO2trZe5mVe5nGPe9yv/uqvnj17dj6fX7p0KSL29vaOHz/+Cq/wCjfffDP/erYl/eEf/uGrvuqr
+llIASfznK6W83du9Hfd7i7d4C57Tddddx2XXXHMNlz3kIQ/hv5Yk4KEPfejTn/70Jz3pSY985CP5
+dwOC/+tms1lrDXjyk5+cmf/wD//w+q//+ufPn7/rrrvGcXz6059+8eLFt3qrt9re3gZsA9M0SXr6
+05++tbV17733PvzhD79w4QJw9uzZUspbvuVb3nPPPX/zN3+ztbV15513vviLv/g999zza7/2awcH
+B7Z3d3eBG2+88Y477rj99ttPnz79d3/3d2/wBm9w7ty59Xr96q/+6k9/+tP39vYe/vCHnz9//pGP
+fOTJkyef8pSnvNzLvVxmHhwcvNqrvdqFCxf+/u///g3f8A37vgd+7/d+7w3f8A2f8Yxn/NRP/RTw
+27/928ePH7/jjjv+5m/+5mVf9mW3t7f/4i/+IiIuXbp06dKll3qpl/qFX/iFjY2Nl3iJl9ja2vqb
+v/mbU6dOvfEbv/FjHvOYcRwf97jHAdvb22/7tm/7uMc97o477nj6059+6623vs7rvM40TU972tMe
++chHPuEJT6i1Xrx4cRiGV3qlV7rmmmuuv/768+fPS+JfT9Ktt946n89vuOGGzOSq5+eVX/mV//7v
+/942/25A5f+6133d1/35n//5H/zBHzxz5syDH/zgEydO/MIv/MKjH/3oUsrv/u7vPvrRj7722mt/
+/ud//tprrwVOnz79N3/zN09/+tPf9E3f9G/+5m9aa/P5fLFY7O/vLxaL6667bnNz8+d+7uce+chH
+Xrx4cZqm06dPR0Tf9y/xEi9x++23l1Juuukm2494xCNms9nOzk6t9YYbbviFX/iFRzziEdM0zefz
+G2+8cWdnZ5qm+Xz+xCc+cXNz81Ve5VU2NjauueaaUsrGxsaDHvSg2Wz20z/908vlEnjoQx963333
+3XLLLbaHYTh+/Pi7vMu7PPWpT/3pn/7pl3/5l5+maX9//+jo6MyZM9dcc83DH/7w3/md33nJl3zJ
+Jz3pSQcHB6/92q99xx13/MIv/MK11167vb1dawVKKX/+539+yy23vMqrvMru7u6ZM2f6vt/c3NzY
+2GitveIrvuKdd9752Mc+drVabW5uXnPNNSdOnJDEv9U//MM/vOIrviIQEVz1PGxvbm6ePHnyaU97
+2sMe9jD+fQD91m/91mu/9mvzv9xv//ZvP+5xj/vQD/1QnlNrLSJsT9PU9z2XjeNYa5U0TVOt1XZr
+rdZqW9I4jkDXdbanaeq6zrbt1lqtVdI4jrVWYJqmrutaa7Zrra01oJTC8xjHsdYqifvZtp2Zkkop
+PKe/+Iu/+Pu///uXfMmXfJmXeRlgmqaIkCTJtiTANiAJGMex1irpnnvu+eu//us3eqM3kpSZEdFa
+AyJiHMe+7wFgmiZgHMff+I3feJ3XeZ3Nzc1xHGutXDZNUyklIrjffffdB5w5c0YSD/Dt3/7tt9xy
+yxu+4RvyAuzt7f3u7/7um7/5m3PVC3Xffff99V//9Ru+4Rvy7/Pbv/3blf/TIuLg4OD8+fPjOHI/
+SbYBSbYBSba5TBJgWxJgG5AE2JYE2AYk2ZYE2JZkm3+JJNsAIMm2JMA29zt+/Pirvuqr1lqf/OQn
+A5IA24Ak2zyAJO5n+5GPfORTnvIUSYBtQJJtSbZ5To997GPvueeezJRkWxJgWxJgG5Bk+/Tp0/zr
+3Xnnnddffz1X/Uuuueaa1Wo1DEPf9/w7AJX/0yR1Xbe1tdVa4/mxzWWSuOoFqLVubGzwr3fu3LmH
+PvShXPUi2NraunTp0pkzZ/h3ACr/183n89lsZpvnRxKX2eaqF0CSJP71lsvl9vY2V70IdnZ2Ll26
+dObMGf4dgMq/hm1JmTlNU601ImxL4n82SZJ4oSRx1X+0cRzn8zlXvQjm8/lqteLfB6i8yGxL+vu/
+//unPe1pkoCXeImXePCDH8xVV70AmRkRXPUiiIhpmvj3ASovMkl/93d/94xnPONN3uRNuq47PDz8
+hV/4hVrrTTfdxFVX/dslBDQIDDKI/zNsgxXBfwWg8iKz/bSnPe2N3/iNu64DNjc3X/d1X/fP//zP
+b7rpJq666gWQxL9AGCRDymGL/wsMlgKBAYP4TwdUXmTDMJRSZrMZ9zt+/Ph6veaqq/5dEkVaT7/z
+wr27SwsQ/8vZBvWVh91w4tTOhmhQ+M8HVF5ks9ksMw8PDzc3N21LOnv27GKx4Kqr/l0Eeupt9104
+4viZGwoB5n8/iXEYHv+0e17ykdfubPRgEP/JgOBf49GPfvQv//Iv7+3tAffdd99v//Zvv/RLvzRX
+/fvYtm3bNv8PWatpuvfSePzMqRqD1KSUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkop
+pZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZRSSimllFJKKaWUUkoppZQSctZ3W8fP3H7P
+LgT/JYDKv8YjH/nIvu9/93d/97bbbnv4wx/+uq/7utdccw2X2ZZkWxL/D9gGJPGcbE/TtFqtjo6O
+VqvV0dHRer1er9fr9Xocx8zMTNu2MxOwbds2IEmSJEmSJEmKCEl93/d9P5vN5vP5fD5fLBYbGxvz
++bzrOkk8D9uS+F9BuLUMyUVpMP9XGNda18vGfxWg8iLITNuSgAc/+ME33njjL//yL7/hG76h7daa
+JO4nif8fJAHjOO7v7+/u7l66dGl/f//o6Cgzbdda5/P5fD6fzWaLxeLEiRPz+bzWWmstpZRSSikR
+ERGSJHE/27YzMzNba5k5TdM0TdM0rdfr1Wp1dHS0t7e3Xq9Xq9U4jpIiYrFYbG1tHTt27Pjx49vb
+27PZTBL/a0gIKXAiYfN/SYorxH8+oPIi+NM//dNz585FBJe11v7iL/6i67rMBIDW2oMf/OCXeImX
+4P+6zLx06dJ9991333337e/v2+77/tixY8eOHbv++uu3trZms1nXdfxbSZIUEbxopmlar9f7+/uX
+Ll26ePHirbfeul6vge3t7TNnzlx77bXHjx+PCK76/wGovAhe8RVfkQcYx9H2G7/xG2cm95PE/13L
+5fKOO+6488479/b25vP56dOnH/KQh5w8eXKxWEjiv0+ttda6ubl53XXXcZnt1Wp1/vz5s2fP/sVf
+/MVqtdrc3Lzxxhtvuummzc1NALAtif/BJAG2gQhlmuchyTaXRcjGNiDJNg8QEZkJRERmApJsA5Js
+86KyFLYBSXaCuELCCeK/FVB5EUQED1BKiQggIvg/LTNvv/32Jz7xiavV6pprrnnUox515syZWiv3
+s83/MJIWi8VNN9100003Aa21c+fO3Xbbbb/5m7/Z9/3DH/7wBz3oQbVW/geTdHh4WGvZ2FgABwdH
+m5sbEQGWZJPpUrS/vz+fL7quZnq5XNrM5/NS4tKlve3trYjITECK/f292Wze9/3+/t5isdH3dW/v
+YLFY1Fr29w82NzdAEbINAJLGceq6ArINKOQ0cHR0tFgsMr1arba3NzMdoWEYx2HY2tpozRFqLVtL
+/jsAlf+pbEsCANuSeE62JfEfxDaXSQJsP+lJT3rc4x534sSJl37plz5z5owknock/mcrpVx77bXX
+Xnut7fPnzz/+8Y//m7/5m0c96lGPecxjIoL/WrYBQBJgG5DEs4i0+lJ+77d+/cTx4zfecvOwXv/G
+r//6y7/8yx8eHs7m87P33bdzbOf6666/564777zzjptuvlnoQQ9+yC/8wi++3uu/4elrrvmbv/7z
+g/2DkydOKMo1110r6eKFi3/4B3/w3h/wgU99ypN+81d/+ZVe6RVXq+GpT3vqIx/xcGfefe+9G4vF
+wx/5qDtuu/3EqZPTOC4Wi/MXLr76a772H/z+77VhNetnKmX34sVrrrlme3v7Gc+4reu6jY0NRVy6
+tHvixIk777hjZ2enlHLu7NmHP+rRtz/j6bc86MGPerGXyqmB+a8FVP6DPOlJT7r99ttrrRERERFR
+SomIUkoppZRSSomIUkopJSJKKRFRSomIiCilRERERERERERERAQgSRLPQxL3kySJfzdJwP7+/m/9
+1m8dP378jd7ojTY2Nvi/4vTp06/xGq+xWq3+6q/+6md/9mdf67Ve68SJE/z72OZFJsm2JNuSJP3e
+7/3eU5785Dd7i7eUBGBKsHvh7B1Pf+qFjcW999wpvD3vb33KkyTuuvvuG2648b7D/bN33/mMpz/t
+wQ95yF/++R+H4tanPeW6Mye68N/+1Z+fOX38vrtvv3T+vij11qc9qavd4eHBjdeezvXRE/7+b264
+9tSTn/D3d955z4MedMu9d9321Kc85fSZa2bl5B/89m+cO3vuIQ99SN91T3/60ynl5V7mpe98xtO6
+ovPnzt94083DMPze4/5hY7HYOXYsW9vc3Ljv3NlTJ08+/m//+sw119x39x2ttTNnzvzOb/3aTTfe
+cPedtz/mJV6qIWH+awGV/yA333zz6dOnx3HMzMxsrWVma621lpmttWEYWmuZ2VprrbXWMtN2ZtrO
+TNuZaTszbWem7YiQJEmSJEmSJEWEpIiIiPl8/vd///e33Xbb3/3d37XWIqKUUkqJiFJKKSUiSikR
+UUqJiFJKRJRSSikRERGSWmvf+q3f+qqv+qqPetSjfuM3fuPlX/7lb7rpJsC2JO536dKl8+fP33jj
+jbPZjPu11lprfd8Pw1BrjQjut7+/f/bs2euuu25jY4PLpmmy3XUdD3DhwoVxHK+55prbbrvt1KlT
+pZTZbBYR586dOzg4uO666+65556tra0TJ07ceeed1113XSllHMf5fA4A0zTZ7rqOF8q2pPl8/iqv
+8ir33nvvb//2b7/2a7/2iRMneMFsA7YltdYiYpqmiJimaT6fr1ar/f39zDx//vzW1taFCxeOHz9+
+4cKFra2to6OjWut999335Cc/+cyZM3feeefNN9/89Kc//eabb77zzjtPnTp1cHCwsbHx27/925/5
+mZ/5ju/4zh/wyV8iCZC0u7f/hm/25uv16klPfJKdD3rYwwUXL158jdd6ndrPM/Puu+58xKM3r7nu
+zMlrr5uG4eZbHvx3f/u3W8eOP7jv//5v/+ZBD3344f6hFKWUi7sXH3HzLefOnt3c2nnwQx56+zOe
+fnxje+vY6VOnTt13772PfMxLbm5tDuvhlgefOH7y9DXXXjuN4ytef+P+wcHm5s7B4dF11555xVd5
+7PbO9l/8+Z+/wRu/6X333Xf69Ol77rqr67obH/Tgu+6448Vf+mWuuebai7u7bZrOnLnm+psu/sFv
+/+ZLvuzLI8D8lwMq/0Huueee1Wr10Ic+dDab8R8nMzMzMzPTdmstM21nZmZmZmZGxK233nrhwoUT
+J04cHR211lpr6/W6tdZay0zbmZmZrbXMtN1ay8zMzEzbkvq+/4Vf+IXP+7zP+4AP+IAP+7APu+GG
+G7hMEg/wi7/4i+v1uu/7W265pbXW9/1111137733LpdLSVtbW621o6Oj7e3tO++8883f/M1/8zd/
+8/z588ePHz9x4sSJEyf29vbOnTtXa53P5/P5nMsWi8Wf/umfXnPNNRsbG7ZXq9UwDG/+5m++s7Pz
+4z/+48eOHRuGITNPnDgxjuPZs2df9mVf9mEPe9if/dmf2T59+vQwDLu7u+M4nj59+tixY7feeutD
+H/rQvb2948eP33HHHS/90i997bXXApJ4gGuvvfZVX/VVf/qnf/rN3uzNzp8/f+rUqTvuuOPmm2++
+9dZbb7nlljvvvPPkyZPL5bK1trOzc++99958881Pe9rTHvGIRzztaU+75ZZbzp49e+bMmXvuucf2
+pUuX7r333ojY29vb2toahkGSpL7vZ7PZ8ePH5/P5jTfeuLGx8bCHPWyxWGxsbPR9n5mz2ezVX/3V
+v+RLvvjd3+O9nnpRthFT+qZbHiJZ6DEv/jLG2ACSwQC8xMu+nIwxyLbEo1/ipVvLE9LND3m4BAZA
+FrKRmKZ86Zd/5Zd5hVcWGAwgYZCxALANSEpok9/8rd7u1JlTohge9IhH2TzyxbF51Iu/lAT4pV7+
+lSS1JAIAa70+2tjYfPBDHzqOiYz5LwZU/oOcOXPmCU94wq/+6q/O5/OHPOQht9xyS9/3/LtJqrXy
+L7nmmmvOnz9/00038W/VWnvqU5/6uZ/7uefOnbv++ut5AVar1dbW1s7Ozh133NFaOzo6+qM/+qMT
+J06s1+vZbNb3/X333XfNNdfcfffdp0+fvu+++6Zpms1mx48fv/POO//2b/92sVicPHny3nvvPXny
+5F/8xV88/OEP/6u/+qubb775sY997N13333HHXe81Vu91W/91m+dP39eErBer++6666bb775uuuu
+y8yjo6Na6+HhoaR7771X0l133SXp2LFjpZQ/+ZM/mabplltu+bVf+7XHPvaxFy5c+K3f+q1a67XX
+Xsvzc+21125vb0fENddcM5/PH/KQh2xsbDzmMY+ZzWbHjh0rpdiOCEk33XQTcN1112XmmTNnbF9/
+/fXAQx7ykJtvvvnEiRMnTpywferUKdvHjh2zffz4ceDYsWOnT5+utW5ubgKz2cx23/e2Aduv8zqv
+8zqv8zrr9fCUC+cBTJAYg7FNivsZMAiEeSYBBkgAbGQAG8yzBWRrRgAYZJ5NPJCNhU6fPt0ybYuk
+8SxGADIgwGoNACh18eIv83LT2JoJ/hsAlX8N25KWy+V9993XWosISVy2tbX18i//8rbPnj371Kc+
+9R/+4R92dnYe9rCH3XDDDbVW/q0k8aKxzb9DKeWDP/iDgV/4hV84d+7cmTNnMjMieE6PecxjXvIl
+X3Jvb293d/cJT3jCTTfd1Fo7ceLE+fPnL126dN11150+fXp3d/c1XuM1uq6bz+cPechDHvzgB29u
+bv7ET/zEYx/72P39/TNnzmxsbPz5n//5dddd9/Iv//IRcc0110zTtLm5+dIv/dI/+7M/K+nmm2/+
+9V//9Td4gzd4xVd8xQc96EF/+Zd/+dSnPvW66657yEMe8vd///cnTpyYzWYPe9jDjh07tr+/f999
+9505c+bixYunTp06ffr0Qx7ykP39/Xvuuef06dMv+7Iv+/CHP5wXYG9vr+u606dPc9nm5iYwm82A
+rut4fiICkAQAtrmfJEASIIkXQBIgiQdIwCQSsoQNCCyeiwAwz2Kem7mfeDZzhXkmixdIAG4JSCTP
+SRjA3M/cT27jABAYsATC/JcBKv96v//7v3/NNdf84R/+4Wu8xmvYlsT9JF1zzTXXXHNNZt59991P
+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
+0dG11177iEc84uTJkwBgG5DEVf/REgmEZSNA/B9iAykZxH8+oHLV/WqtD3nIQx7ykIesVqtnPOMZ
+f/ZnfzaO44033viwhz1sZ2eHq/5zCEQiLYc8d+nQLcX/BYb5vDt1bLMowCD+8wGVqx7ANjCfzx/1
+qEc96lGPOjo6etrTnvZ7v/d7kh70oAc95CEP2djY4Kr/ULKRzx8MT3jafWW2pVqw+D9hOndw99m9
+F3v49VUGg/hPBlSuegBJPMDGxsaLv/iLv/iLv/ilS5ee+tSn/sZv/MZsNnvwgx/8oAc9aDabcT/b
+gCSu+jexefIzzp84eV0/qyZl8X/D8e1zZ8/fee/FB113gv8SQOWqF8y2JODYsWMv+7Iv+7Iv+7IX
+Llx48pOf/IQnPGFzc/NhD3vYdddd99d//dev8AqvUErh+bE9TdM0TdM0DcMwjuM4jtM0TdPUWsvM
+zLSdmUBESIqIUkpE1FprrV3XdV3XdV3XdaWUrusk8X+JtF63qdH1nVtmIJv/GzxtbW9f2jvHdSfB
+/OcDKle9YJJ4TidPnnylV3qlzLzvvvtuvfXWv//7v/+UT/mU93zP9/zYj/3Yg4ODg4ODvb29w8PD
+5XK5Xq+HYcjMUoqkiCildF3XdV2ttZRSa42IiJAE2JZkOzPHcczMaZqmaRrHcRzH1lpm2m6tSZrN
+Zn3fLxaLra2t7e3tra2tzc3Nruu4n21J/O9gAAlZIP4PMSBzhUH8JwMqV/3rSdrZ2XnYwx72t3/7
+t6vV6nd+53ce8pCHHD9+fDabbW9vHz9+/IYbbtjY2JjP513XlVL4jzNNU2ttuVwul8vlcrm/v/+M
+Zzzj6OhotVpFxGw2O378+OnTp0+ePLm9vS2J/wVsZIQaEub/EEFaBkD85wMqV71QtiUBti9dunTX
+XXfde++9h4eHpZRjx4691mu91ru+67tubm5K4r9ErbXWOpvNjh8/znNar9cHBwcXL1685557nvCE
+J0zTtFgsrr322htuuOH48eMRAdgGJPE/iIQtcDEpMEaAsMA8kMIYg5ANsggSKyXZPJMRRoAsMM9J
+YASgNCGMZYyMAzmMCYOUBgHmeQkACxNyghEygBGXmf86QOWqF0rS2bNnn/KUp5w9e3Y2m11zzTWP
+fexjT5w40fc9/8PMZrPZbHbq1KmHP/zhwDiOFy9evOeee/78z/98tVqdOnXq4Q9/+JkzZyLCtiT+
+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
+b/7mb37u3LnTp0/fcccdN99886233nrLLbfceeedJ0+eXC6XrbWdnZ1777335ptvftrTnvaIRzzi
+aU972i233HL27Nlrrrnm3nvvlXTp0qX77ruvlLK3t7e1tTWOo6SImM1ms9ns5MmT8/n8pptu2tjY
+eMQjHrFYLDY2Nvq+z8zZbPYar/EaX/ZlX/pu7/6eT7mAbZ5TyzxzzfXXXHcDQmBbkgCYmh/8sJ2H
+PfKRtsAGIXBrPOrFXkIENgIDvPQrvqItgwCwedijHmOMAUAS2Gm/1YMe5sRw+rrrAcFLv/wrWWT6
+ERICAwgyedijH4tZr442t3ce/JCHjmPjvxtQ+V/FdinlZV/2ZR/72Mf+5V/+5U//9E+/zMu8zEMe
+8hD+g2Rma+2WW27hRXb69Onf//3fXywWf/3Xf33s2LG//Mu/vP7665/ylKdsbm4+8YlPBO67777X
+fM3XfMITnvDUpz51NpsdHR11XXd4ePiXf/mXmXnNNddsb28fHBzUWv/2b//26U9/+qMf/eibb775
+SU960l/8xV884QlPeNjDHvbnf/7nj3jEI2655Zbt7e3f/d3fnc1mP/ETP3Hq1Kljx47de++9kp72
+tKe9+qu/+l//9V+fPn36hhtu4EVg+5prrjl27FhEXHfddfP5/CEPecjGxsZjHvOY2Wx27NixUort
+iJB00003Adddd11mnjlzxvb1118PPOQhD7n55ptPnDhx4sQJ2ydPnrR97Ngx28ePHweOHTt26tSp
+Wuvm5iYwm81sd11nG7D92q/92q/92q+9Xg8+f57ny3azwbJAFpcJsFsCAQ0wAoQ8NSMQGAKg2YgH
+yLTN/RTYYCRSADgBDIABaDyTuEItMar9/CVe6mWmqTVAks1/H6Dyv4okLpvP56/6qq+6v7//Z3/2
+Z09+8pMvXLgQEYBtQBL/JhHRWjt//vyZM2cyMyL4l7zES7zE7bfffu211y6Xy7Nnz77Wa71W3/f3
+3nuv7WmaVqvVox/96FLKmTNnuq7b2to6f/583/fHjh07derUmTNnpmk6c+bMfD5/zGMe80d/9EeP
+fOQjp2lar9c333zz3Xff/fCHP/zlXu7lSinXXXdd3/ev+IqveP78+RtuuOHee+/d3NxcLpdnzpzp
+uu6uu+56xjOecd11181mM140kvb29mqtp0+f5rKNjQ1gNpsBXdfx/EQEIAkAbHM/SYAkQBIvgCRA
+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
+/uUtt9zyVm/1VqUU/iW2AUnPeMYz/uIv/uL6669/7dd+7e3tbZ6TJACQxP88knhOfd8/5CEPechD
+HnJ4ePgP//APP/MzP/PSL/3SD3vYw2xL4r+QbUm2JQEXL16stcwXmwLzTJaQpjZeunhha2vjtluf
+/ri//5tTJ0/f9oxn3HjLTbR2/MSJS/uHb/W2b/fUpzzpr//yj506c811fV/vvffu25+xvbe/t7mx
+0fezlvE2b/sOv/yLP9+m6dLu7iu/6qv8yi/+wn1337G3e/6uO+8spVy475677rojoj7pCf+wvbN9
+221PP3XqmmM7x+++646Wesd3ftff+Z3fWS8PZ/Pu4GD/6Oho1nd7e3sPfdgjz549K7jmmuvuufsu
+wqFyeHT4+L/76zd44zc7c/2N2Rr/TYDgRSDp9ttvv/vuu1/t1V6N+9m2/fqv//p//dd/fenSJf4n
+iYhLly798i//8pOf/OQ3eIM3ePmXf/lSCi8CSZL+7M/+7O/+7u/e8A3f8FVe5VW2trb4P8G27c3N
+zVd8xVd80zd906c85Sm///u/L4l/H9s8D9uZabu1tl6vW2tHR0fTNF26dGm9Xl+4cOHg4ODChQsH
+Bwc/8AM/8Aov/wrf8s3f3FpKAoQBYezrr7vucH//2Pb2yePHr73mVKgd3970tK7ysDxq43TNmWuz
+TRvz7tjO5mp1dOL4yWE9PPxhj9ja3Ha2No2ZrWULcfPNN3d9b7y1Mb/rjmesV8sTJ47deefth0f7
+XV9r0e23PnV5uLc57w73dsdhuVj0W1ubbVpf2j2/sVhUlWmYHvqQhx8/dnIaBjm7wrmzd168cM/h
+we58Vo7vbNXwwcG+JP77AJUXwdHR0Z/8yZ+88Ru/MQ8gCZjNZq/6qq/6m7/5m2/1Vm8lCZDEf6tp
+mv7yL//yrrvuermXe7mbb76Zf6V/+Id/ODw8fPM3f3Muk8SL5ujo6Od//uc3Nzdf/dVfvZQym82e
+8pSn3Hnnna/wCq+wsbFxeHgoqbW2ubk5TdMTnvCEl3u5lzs4OIiI1lrf98Mw/PVf//Wrvdqr/c7v
+/M7h4eGjH/3o06dP246IjY2NiPiHf/iHm266aTab/d3f/d3JkydvvPFGIDMlbW1t8S+RxP0Wi8Ub
+vdEb/dEf/dGf/umfvsIrvMJyuay1rlar2Wx2dHQ0n88PDw+7rpumaRzH2Wy2u7t78uTJu++++/rr
+r7/zzjvPnDlz/vz5EydOPOMZzzg4OHj5l3/5pz71qQ9+8IOf/OQnP+IRj3j6059+0003nT9/fnNz
+84477njCE55www033HHHHQ996ENvvfXWBz3oQXffffc111xzdHS0vb1t++DwoKURAsBITluzxeZD
+H/1iD33kYza3ttbr9YkTJ2552KO3trcPDw42NjYetVp3s8XLveKrvNTLvfw4Tn3Xt2wRxfZ8Psf+
+jV/95Z3j842tzdd7/TdGsVgsutnGa7zW662WR7VUpFrrcrmstZYSrbWu64ZhiIhaa5RYr0dHeZ03
+eOPMtlhsnL33vo3Nzb7vXuLlXmm9WnVdd+HihVMnT168eHHn2LG9vb35fL5ars5ce21rjf8+QOVF
+8Ed/9Ecv+7Ivu7W1xfNzww03POhBD/qLv/iLV3iFV7DNf6unPe1pf/3Xf/2QhzzkLd/yLSOCf72n
+Pe1pr/d6r8e/3nK5fPKTn/zQhz70R3/0Ry9evHj69On1en1wcPCMZzyjlDJN0+Hh4Xq9fuQjH/la
+r/VaT3rSk176pV/6x3/8x2utkvb29jY3N8+fP//Kr/zKd9xxx2w2+9u//dt777334OBgsVhcf/31
+p0+fftzjHnfttdfedtttrbVTp06VUlar1aVLl06dOvXe7/3ekvhXeqVXeqVv/uZvPn369N7e3rXX
+XnvnnXc+6EEPuvPOO2+++eazZ8+eOHFiGAZJtdZSiqStra1a66lTpzY3N2utOzs7Z86cueWWW06d
+OrWxsdF13Su90itFxOnTp4Hrr78+Ih70oAe95Eu+ZCnluuuus33y5Enbp06dsg1Iepd3eZd3eZd3
+Pn7i5B8/8WzaPJttrr/hRsD2NrLzxlsenJnHjp9M+7jUWts5fgIkYRsJGwBsv8XbvF0tMY7t9DXX
+AbadeeLkKek0l9k+KQEGgW1JBmwA1LJtbG5Jsn3DzTfbto202Ni02do5lpmbO8czc+fYCRtJrTVs
+/vsAlX+J7Zd5mZc5efIkl9mWxHN66Zd+6d3dXUAS/x0iYm9v77d+67dsv9EbvdHm5ib/JrYjous6
+wLYk/jWuv/76t3u7t/vxH//xixcvzufzl3iJl/irv/qrUsrR0dFjHvOY/f39zKy1AufPn3/yk5+c
+mZcuXbp06VJmbm5uHj9+PDNvvvnm2267bb1eb2xs3HLLLev1+r777rvzzjsj4tZbbz08PHzQgx60
+Wq26rlutVjfffPN8Pp+mqes6/jVsS3rwgx98yy231FqB66+/Hjhz5gxw6tQp25K4n+2dnR3bm5ub
+wMbGBrCxsbGxsQEsFgvbkmzzPCQBgG3ANpfZPnPmDLBaDwaBeQ6tNR6gTRPQAGgAZCYvgIipyRS3
+BANAZvKvYds20FrjCtsAtAbQpglo/E8BVP4lkk6ePMn9JPE8IuLkyZP8l7MtyfYTn/jE22+//f3e
+7/3OnDnDv4Ok06dP/83f/M3Lv/zL86+0s7Pztm/7tn3fv+VbvuV99913+vTpiHjUox51zz33XHvt
+tRGRmVy2tbX1eq/3eovF4g3e4A36vl+tVovFYhzH1tpsNnvkIx950003XXPNNeM41lptj+N48eLF
+06dPHxwcREQppZTSWmutHTt2bJqmWiv/SpL+/u//fnNzs9bK8yOJB5AESOIFkARI4jlJ4jJJ/Bcy
+/x8BlRfZpUuX/uqv/uqaa67puu72229/6Zd+6XPnzu3t7b3My7xMKYX/DpKe/OQnP/GJT5ym6SVf
+8iXPnDljG5DEv9UrvuIr/sZv/Mbv//7vv+qrvqokXmS11uPHj9ve3Nx86EMfCtgGdnZ2uMy2JMD2
+Yx7zGJ4f2zfccAP3sy0JOHPmDHDy5Emek21AEv9Kf/Znf3bu3Lk3eIM3AGxL4r+XAZCxQfz7ySZB
+Mv+tZP7rAJUX2dOf/vS/+qu/OnXq1DAML/mSL/mrv/qrFy5c2NnZedCDHnTmzBn+q9gGJJ0/f/6P
+/uiPtra23uRN3uT3f//3/+Ef/gGQxL+PpNd7vdf7y7/8y5/+6Z9+yZd8yYc85CGlFMC2JF4wSYAk
+7ieJB5DEZZJ4ASTxAJJ4oSTxL7ENSAIy8xnPeMbf/M3fXHfddW/4hm9YSgEk8d8qoTZsiYQQ/xGM
++O9nFFxmI/GfDKi8yCSVUjJzPp8vFotxHF/qpV7qSU960nK55L+KbUnr9frP//zPz58//0qv9ErX
+XnstYJv/OJJe7uVe7lGPetRf//Vf//3f//2NN9748Ic//Pjx4/zvJAm4dOnSU57ylDvuuOPYsWOv
+8zqvc+zYscy0LYn/XnbfdyWmsU216+UE8x9D/LdSlOXuxdNbcwDxXwCovMhuuummd3qnd1oul3fd
+ddcznvGMN3iDN7jvvvse/vCHX3vttfznsy1J0hOe8IR/+Id/eOxjH/uqr/qqkvjPYXtra+vVX/3V
+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
+2Wy+ubWzPDrcWMyH1erP//IvX/6VXoXMqHXv0qWXf8VX2to57kz+mwCVfxNJ/OtJ6rqu6zr+NTIz
+MzOztTZN0zRNwzCM4ziO4ziO4zgeHR1dunTp3Llz//AP/3B4eGg7MzPTdmZKqrWWUmqtpZRaa9d1
+fd/3fd91Xd/3XdfVWvu+Pzo6+sZv/MZ3fdd3vfnmm3/jN37j1KlTb/RGb7RYLPi/4tSpU6/2aq+2
+Xq//6q/+6md+5mde+7Vf+8SJE/z72OZFJsm2JNuSJP3O7/zOk570xLd8y7eWxLNJaLVagR/18If9
+6I/+SMnx3Pnz995119b29i0PecjTn/7kqPXcvXfeffutf3PvXTffcvM//O3fbGxs3v6Mp+8cO/ZS
+L/9K5++9c1od/vov//zBpd1+Nnvxl3rpm2+84fx99+xe3F0sNjY2N4dhvTzcO3vPXU996lPPXHPN
+mTPX/c5v/tqrveqr/NIv/LzhpV/uZZ7wuL+76fozz3jak8/de89dd93xiEc8Yj2sh/Uwn2+sh3E2
+653T1ubm6RM7j//bv7zxxhtvvPHGJ9z61MPHPHrn2InGfxug8q93eHh49913T9NUa+U/X0REBC/U
++fPnbb/qq74qD2Db9jRN4zhO0zSO4zRN4zgOwzCO4zAMR0dHwzBM09Raa62tVqsf+qEf+vEf//GP
+/uiPfuu3futrr70WsC2J56e1dnh4uLOzw/3GcczM2WzGczp//vzu7u4tt9zSdZ3t9Xo9n88zc71e
+LxYLnkdm3nHHHbXWG264gcvGcdzb2zt16hQvGtuSeE62Jc1ms1d+5Vc+e/bsb//2b7/Wa73WyZMn
+ecFsA7aB1lopZRzHiJimaT6fL5fLvb29zDx37tz29vb58+ePHz9+4cKF7e3tg4ODruvuvffeJz3p
+Sddcc80dd9xxyy23PO1pT7vlllvuuOOO06dPHxwcbGxs/O7v/u5nfuZn/vqv/9YHfPKXSAJAYNvb
+x3ZuuvnBP/8Lv/joF3uJw8ODRz76sTfe9KCNjY3rbrjhyU9+8oMf8pBHPuKRUbv7zt57/fXXHR2u
+rr/hhic9/pqdnZ1rbrhpWB6dPXv+tV//DW57+tO3do5dd+PNq+XR2Xvu2Tp26qabbxHKbOl29513
+PfrFNm+46aadYycODvafftvtL/8qr3JwcLi9c+zBD3v4k5/wuBd7yZe+cOHitTfccLB36fY77n6j
+N3qT2vX3nj07DeP2zlabxsX2ia3t7f29S5cOjk5fd30/m9vmvw9Q+dewDfzBH/zBgx/84N///d9/
+7dd+7cyMCP672bbNc5Ikqe/7vu95EZw9e/bzP//zp2l6zdd8zWuvvZbLJPEC3Hnnnb/4i7/4pm/6
+pn/8x3/80i/90rfffnsp5ezZs6/6qq96++23nz179oYbbjg4OHit13qtn/u5nztx4sRTn/rUjY2N
+1Wr11Kc+9cVe7MUk/dVf/dWrvuqrrtdrSavV6sYbb3zGM57xkIc85MSJEz/xEz9x6tSphz/84avV
+6vjx43/2Z3+WmQ996ENvuOGGu+66a5qm9Xr98Ic/fH9/X9LZs2cf9KAHrdfr+Xx+zz33PPrRj37Q
+gx7Ec5LEA5w5c+bVXu3VfuqnfurN3/zNz58/f/r06dtvv/2WW2659dZbb7nlljvvvPPkyZPL5bK1
+trOzc++99958881Pe9rTHvGIRzztaU+75ZZbzp49e80119x7772SLl26dPbs2VrrwcHBzs7ONE2S
+Sinz+Xw+n588eXI+n998882bm5uPeMQjFovF5uZm13WZOZvNXuM1XuPLv/zL3+3d3+PJ522bZzLQ
+Gi/3Cq/48q/4SlxmwMgyOV8cO3PmTCNe+hVfGZTpCGwe9NBHAIkO9/ff4/0+cHNn51GPfWmJZiQe
+8xIvJUiDAQQv8dIgMA0EQEBCa37sS73si7/0y2ILIZ7+tKe+3Ku+5i03PzjtR0uCtAUSYAzI2HZm
+8t8HqPxrSPq93/u9a6+99uVf/uV//dd//e///u9f/MVfnP8TbJ8+ffqd3umdfv3Xf/2mm27iRfAX
+f/EXFy9e/I3f+I1a6x/+4R/ec889fd/v7Oz86q/+6qMf/eha6y//8i/bfvmXf/m+71/+5V/+F37h
+Fw4PD9fr9c033/zXf/3XFy9evOmmm/7yL/9yf3//4ODglltuufPOO//qr/7qFV7hFV7/9V//6Ojo
+1V7t1X7v937v8PDw1KlTj3zkI//mb/5mb2/vr/7qrx7xiEdcunQpM//yL//y4ODg9ttvf7EXe7Hf
+//3fv+mmm7a3t3/pl35ptVo96EEP4l9yzTXXHD9+vNZ63XXXzefzhz70oZubm4997GNns9mxY8dq
+rbYlSbrpppuA6667LjPPnDlj+/rrrwce8pCH3HzzzSdOnDhx4oTtkydP2t7Z2bF9/Phx4NixY6dO
+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
++tOfftNNN50/f35zc/OOO+544hOfeMMNN9xxxx0PfehDb7311gc/+MH33HPPmTNnjo6OdnZ2JC2X
+S0mSeCZjhMepPfrFXvrhj3qJUsojH/tSETo6PNra3upqd+2ND905duzgYL/v+0c+9mW2trZaZi3l
+4u7Fje1jD3rwbD5f3HzLzbu7ly7t7p44eeLihYvrMR/z2Je89tobNjY3Z7PZIx77MgcH+zs72894
+xq1bW1unTp5p2drUpmm85oYHnTh1ej6fv/prv8FsPluv1pubG4eHR9s7O6WUx774S1+6tHvddded
+PXvfzvbO3v7eYrGxubV180MelZkRnW3++wCV/xIRwX8mSZubm6/7uq8LALZtA5mZmZmZma21zMzM
+zGytZWZrLTNba601oOu6iHja0572Jm/yJrwIzp49e/fddwMHBwettbNnzx4dHdk+fvz4ox/96Hvu
+uae19tSnPvXt3/7tf+Znfma5XL70S7+07T/6oz86ffr04eHher1++MMf/td//dcbGxtPfvKTJd12
+223PeMYzNjc3a6333nvve73Xe915552v/Mqv/Jd/+Zf/8A//sLe3t7W1dfz48cc//vF/+7d/e+7c
+uac97WnDMNjuuu7ee+/d2Ng4duzY0572tJtvvvnkyZP8S17plV7pm7/5m8+cObO3t3fttdfeeeed
+D3rQg+68886bb7753Llzx48fH4YhImyXUiJiZ2en7/szZ85sbW11Xbezs3PmzJkHPehBp06d2tzc
+rLW+0iu9UkScPn0auP766yPiQQ960Eu+5EuWUq677jrbJ0+etH3y5EnbgKR3eZd3eZd3eedjx078
+8ZPOps0D2J4vNpCwNzY3geMnTqWNffODtjNz59hx20jORGBu2NxqrS02Fg97xCNba6fPXHPNtddl
+5ukz12am7ZtueVCmbRYbHD9xys4Xe4ljgAgAhBBkZto33nyLjSQ7j588nTa2pGMnTma2G29+kO3t
+4yfttH36zLUSrTX+WwGVfw3bkmy31gDbkvifR5IkICJ40WTmV33VV11//fW/8iu/IgmwLYkXLCL6
+vrd92223HR0dbW1t2Z7P51tbW8CDH/zgO++8c3Nz8xd/8RfPnTvX9/1TnvKUiNjZ2Tk6OoqIBz/4
+wU984hMvXbp0zTXXXLhw4aEPfei11157/vz5jY2N7e3t22+/fblcRsTjH//4cRzvueeeaZquueaa
+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
+4F+yWq1KKTs7O3/3d39XSnna0572l3/5lw996ENvu+223/7t3z44OLhw4cJf//Vf/+mf/uk4jra5
+6qr7XX/99XfeeSdXvVC21+v1MAzb29v8+wCVf8nJkycf9ahH3Xbbba/3eq+3tbUF3Hzzzddff/1d
+d9113XXXPehBD4qIpz/96Q972MMigquueoDrrrvuL/7iL1prpRSuen5sS7rttttOnToliX8foPIi
+eJmXeZmXeZmX4bKHPOQhXPaSL/mS3O/FXuzFuOqq59F13cmTJ5/61Kc+8pGPtC2Jq56fJz7xia/y
+Kq/CvxsQXHXVf6aXfumX/od/+AfbXPX8SLrtttu6rjt16hT/bkBw1VX/aWzv7Oxcf/31f/mXfymJ
+q55Ha+3P//zPX+mVXon/CEBw1VX/aSQBr/AKr3DHHXfcc889gG3bXAW2gT/4gz946EMfevz4cf4j
+AMFVV/072OZfUkp5ndd5nd/4jd84d+6cJElcBZL+8A//cBiGl37pl7bNfwSg8n+C7YODg0uXLq3X
+a676L9H3/f7+viT+JbZ3dnZe//Vf/1d+5Vde//Vf/9prr7UNSOL/sT/8wz+8ePHim77pmwKS+I8A
+VP5PuOaaa26//fYv+qIv4qr/QoeHh6/7uq/Li8D2tdde+5Zv+Za/+Zu/edNNN73My7xMRPD/1d7e
+3u/8zu9ce+21b/qmbyqJ/ziAfuu3fuu1X/u1ueqq/xKttb/4i7+48847X+IlXuIhD3lIKYX/Tw4O
+Dv7u7/7u7rvvfsVXfMWbbrqJ/2i//du/Xbnqqv9CpZRXfMVX3Nvb+5u/+Zt/+Id/OHny5PXXX3/i
+xImNjY1aKyCJ/yts2x6GYX9//+zZs3fdddcwDI94xCNe8RVfsZTCfwKgctVV/7Vsb29vv8ZrvMY4
+jvfcc88999zzjGc8YxiG1hr/F3VdN5/PT5069Uqv9ErHjx+XZNu2JP6jAZWrrvqvJYnLuq67+eab
+b775Zv6fkcR/DqBy1VVX/V8BVK666qr/K4DKVVdd9X8FULnqqqv+rwAqV1111f8VQOWqq676vwKo
+XHXVVf9XAPVv//ZvL1682Frjqquu+t+slHL77bf/IxXxLMqzHG5SAAAAAElFTkSuQmCC
+------=_Part_0_1869789829.1774939515509--
